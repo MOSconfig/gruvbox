@@ -770,8 +770,8 @@ hi! link SignifySignDelete GruvboxRedSign
 " }}}
 " Syntastic: {{{
 
-call s:HL('SyntasticError', s:none, s:none, s:undercurl, s:red)
-call s:HL('SyntasticWarning', s:none, s:none, s:undercurl, s:yellow)
+call s:HL('SyntasticError', s:red, s:none, s:underline, s:red)
+call s:HL('SyntasticWarning', s:red, s:none, s:underline, s:red)
 
 hi! link SyntasticErrorSign GruvboxRedSign
 hi! link SyntasticWarningSign GruvboxYellowSign
